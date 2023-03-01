@@ -6,6 +6,7 @@ ruby '3.2.0'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'aasm'
 gem 'money'
+gem 'money-rails', '~>1.12'
 gem 'pg'
 gem 'puma', '~> 5.0'
 gem 'rails', '~> 7.0.4', '>= 7.0.4.2'
