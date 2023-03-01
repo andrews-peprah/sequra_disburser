@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-class HelloWorld
+class MerchantRetrievalJob
   include Sidekiq::Worker
   def perform
-    puts 'Hello world!'
+    MerchantRetriever.call
   end
 end
